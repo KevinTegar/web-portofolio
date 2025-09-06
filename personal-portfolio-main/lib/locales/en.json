@@ -1,0 +1,43 @@
+{
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "intro": {
+      "hello": "Hello, I'm",
+      "iam": "I'm a",
+      "with": "with",
+      "ofExperience": "of experience",
+      "enjoy": "I enjoy",
+      "contactMe": "Contact me here",
+      "downloadResume": "Download Resume"
+    },
+    "about": {
+      "title": "About me",
+      "content": "Hi, I'm <strong>Kevin Tegar Wijanarko</strong>, but you can just call me Kevin. I am currently pursuing a degree in <strong>Informatics Engineering</strong>, with a deep passion for <em>web development, mobile development, and data science</em>, focusing primarily on <strong>web development</strong>. My curiosity drives me to continuously explore new technologies and push beyond my comfort zone. I have hands-on experience with <strong>HTML, CSS, PHP, Laravel, React, Python, Kotlin, Flutter, and Java</strong>, and I am on a journey to grow as a <strong>full-stack web developer</strong>. What excites me most is the challenge of transforming complex problems into clear, effective solutions. My core stack includes <strong>React, Next.js, Laravel</strong>, enabling me to build engaging and dynamic applications for both <em>web and mobile platforms</em>. I am also familiar with <strong>TypeScript, Python, Flask, and FastAPI</strong>. With a strong desire to keep learning and innovating, I am currently seeking a <strong>full-time position</strong> as a software developer.",
+      "hobby": "<em>When I'm not coding</em>, I enjoy playing video games, watching movies and anime series"
+    },
+    "experience": {
+      "title": "My experience"
+    },
+    "projects": {
+      "title": "My projects",
+      "view": "View"
+    },
+    "skills": {
+      "title": "My skills"
+    },
+    "contact": {
+      "title": "Contact me",
+      "content": "Please contact me directly at",
+      "or": "or through this form.",
+      "email": "Your email",
+      "name": "Your full name",
+      "message": "Your message"
+
+    }
+  }

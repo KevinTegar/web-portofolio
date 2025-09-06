@@ -1,0 +1,42 @@
+{
+    "nav": {
+      "home": "Beranda",
+      "about": "Tentang",
+      "skills": "Keahlian",
+      "experience": "Pengalaman",
+      "projects": "Proyek",
+      "contact": "Kontak"
+    },
+    "intro": {
+      "hello": "Halo, saya",
+      "iam": "Saya adalah",
+      "with": "dengan",
+      "ofExperience": "pengalaman",
+      "enjoy": "Saya menikmati",
+      "contactMe": "Hubungi saya di sini",
+      "downloadResume": "Unduh Resume"
+    },
+    "about": {
+      "title": "Tentang saya",
+      "content": "Hai, saya <strong>Kevin Tegar Wijanarko</strong>, tapi Anda bisa memanggil saya Kevin. Saat ini saya sedang mengejar gelar di <strong>Teknik Informatika</strong>, dengan minat yang mendalam pada <em>pengembangan web, pengembangan mobile, dan ilmu data</em>, dengan fokus utama pada <strong>pengembangan web</strong>. Rasa ingin tahu mendorong saya untuk terus menjelajahi teknologi baru dan melampaui zona nyaman saya. Saya memiliki pengalaman langsung dengan <strong>HTML, CSS, PHP, Laravel, React, Python, Kotlin, Flutter, dan Java</strong>, dan sedang dalam perjalanan untuk berkembang sebagai <strong>pengembang web full-stack</strong>. Yang paling menarik bagi saya adalah tantangan mengubah masalah kompleks menjadi solusi yang jelas dan efektif. Stack inti saya mencakup <strong>React, Next.js, Laravel</strong>, yang memungkinkan saya membangun aplikasi yang menarik dan dinamis untuk <em>platform web dan mobile</em>. Saya juga familiar dengan <strong>TypeScript, Python, Flask, dan FastAPI</strong>. Dengan keinginan kuat untuk terus belajar dan berinovasi, saya saat ini sedang mencari <strong>posisi penuh waktu</strong> sebagai pengembang perangkat lunak.",
+      "hobby": "<em>Ketika saya tidak coding</em>, saya menikmati bermain video game, menonton film dan serial anime"
+    },
+    "experience": {
+      "title": "Pengalaman saya"
+    },
+    "projects": {
+      "title": "Proyek saya",
+      "view": "Lihat"
+    },
+    "skills": {
+      "title": "Keahlian saya"
+    },
+    "contact": {
+      "title": "Kontak saya",
+      "content": "Silakan hubungi saya melalui",
+      "or": "atau melalui formulir ini.",
+      "email": "Email Anda",
+      "name": "Nama Lengkap Anda",
+      "message": "Pesan Anda"
+    }
+  }
