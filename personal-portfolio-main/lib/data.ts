@@ -73,15 +73,7 @@ export const experiencesData = {
         "Actively involved in ESCAPE, a student organization in my university. Through this experience, I have developed teamwork, leadership, and problem-solving skills while contributing to various events and collaborative projects.",
       icon: React.createElement(CgWorkAlt),
       date: "2022 - Present",
-    },
-    {
-      title: "Full-Stack Developer (Freelance)",
-      location: "Worldwide",
-      description:
-        "Currently working as a freelance developer, focusing on building web and mobile applications while continuously expanding my skills in full-stack development.",
-      icon: React.createElement(FaReact),
-      date: "2024 - Present",
-    },
+    }
   ],
   id: [
     {
@@ -91,15 +83,7 @@ export const experiencesData = {
         "Aktif terlibat dalam ESCAPE, organisasi mahasiswa di universitas saya. Melalui pengalaman ini, saya telah mengembangkan keterampilan kerja tim, kepemimpinan, dan pemecahan masalah sambil berkontribusi dalam berbagai acara dan proyek kolaboratif.",
       icon: React.createElement(CgWorkAlt),
       date: "2022 - Sekarang",
-    },
-    {
-      title: "Full-Stack Developer (Freelance)",
-      location: "Seluruh Dunia",
-      description:
-        "Saat ini bekerja sebagai developer freelance, fokus membangun aplikasi web dan mobile sambil terus memperluas keterampilan dalam pengembangan full-stack.",
-      icon: React.createElement(FaReact),
-      date: "2024 - Sekarang",
-    },
+    }
   ],
 } as const;
 
