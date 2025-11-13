@@ -12,25 +12,10 @@ import { LanguageProvider } from "@/context/language-context"; // Import Languag
 
 const inter = Inter({ subsets: ["latin"] });
 
-// Metadata dinamis berdasarkan bahasa
-export async function generateMetadata({ params }: { params: { lang: string } }) {
-  // Default ke bahasa Inggris
-  const lang = params?.lang || 'en';
-  
-  const titles = {
-    en: `${profile.name} | Personal Portfolio | ${profile.title}`,
-    id: `${profile.name} | Portofolio Pribadi | ${profile.title}`
-  };
-  
-  const descriptions = {
-    en: `${profile.name} is a ${profile.title} with ${profile.experience} of experience.`,
-    id: `${profile.name} adalah seorang ${profile.title} dengan ${profile.experience} pengalaman.`
-  };
-  
-  return {
-    title: titles[lang as keyof typeof titles] || titles.en,
-    description: descriptions[lang as keyof typeof descriptions] || descriptions.en,
-  };
+// Static Metadata
+export const metadata = {
+  title: `${profile.name} | Personal Portfolio | ${profile.title}`,
+  description: `${profile.name} is a ${profile.title} with ${profile.experience} of experience.`,
 }
 
 export default function RootLayout({
