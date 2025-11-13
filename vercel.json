@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd personal-portfolio-main && npm run build",
+  "outputDirectory": "personal-portfolio-main/.next",
+  "installCommand": "cd personal-portfolio-main && npm install"
+}
+
