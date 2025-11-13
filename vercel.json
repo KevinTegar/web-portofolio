@@ -1,8 +1,0 @@
-{
-  "buildCommand": "cd personal-portfolio-main && npm run build",
-  "outputDirectory": "personal-portfolio-main/.next", 
-  "devCommand": "cd personal-portfolio-main && npm run dev",
-  "installCommand": "cd personal-portfolio-main && npm install",
-  "framework": "nextjs"
-}
-
