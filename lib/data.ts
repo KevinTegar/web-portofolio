@@ -2,6 +2,8 @@
 import weldingImg from "@/public/image.png";
 import portofolioImg from "@/public/webporto.png";
 import profileImg from "@/public/profileImg.jpg";
+import k3lImg from "@/public/k3lwebsite.jpg";
+import hcsMobileImg from "@/public/hcsmobile.jpg";
 
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -106,6 +108,21 @@ export const projectsData = {
       imageUrl: portofolioImg,
       url: "",
     },
+    {
+      title: "Occupational Health, Safety & Environment Management System",
+      description: "A web-based Health, Safety & Environment management application with features including Working Permit, JSA, inspection, monitoring, approval workflow, and complete HSE documentation.",
+      tags: ["Laravel", "PHP", "MySQL", "Bootstrap", "jQuery"],
+      imageUrl: k3lImg,
+      url: "",
+    },
+    {
+      title: "Work Order Management App",
+      description: "A Flutter mobile application for EV charger installation management with features including site survey, installation status tracking (HC, Grounding, Integration), multi-point photo evidence upload, and material/service selection system.",
+      tags: ["Flutter", "Dart"],
+      imageUrl: hcsMobileImg,
+      url: "",
+    }
+    
   ],
   id: [
     {
@@ -124,6 +141,20 @@ export const projectsData = {
       imageUrl: portofolioImg,
       url: "",
     },
+    {
+      title: "Sistem Manajemen K3L ",
+      description: "Aplikasi manajemen Kesehatan, Keselamatan Kerja & Lingkungan berbasis web dengan fitur Working Permit, JSO, inspeksi, monitoring, approval workflow, dan dokumentasi lengkap K3L.",
+      tags: ["Laravel", "PHP", "MySQL", "Bootstrap", "jQuery"],
+      imageUrl: k3lImg,
+      url: "",
+    },
+    {
+      title: "Work Order Management App",
+      description: "Aplikasi mobile Flutter untuk manajemen instalasi charger EV dengan fitur survey lokasi, tracking status pemasangan (HC, Grounding, Integrasi), upload foto evidence multi-point, dan sistem pemilihan material/jasa.",
+      tags: ["Flutter", "Dart"],
+      imageUrl: hcsMobileImg,
+      url: "",
+    }
   ],
 } as const;
 
