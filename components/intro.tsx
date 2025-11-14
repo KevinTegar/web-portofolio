@@ -1,4 +1,3 @@
-
 "use client";
 
 import Image from "next/image";
@@ -10,14 +9,15 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import { profile } from "@/lib/data";
 import { useTranslation } from "@/lib/hooks/useTranslation";
+import { useTranslatedData } from "@/lib/hooks/useTranslatedData";
 import LanguageSwitcher from "./language-switcher";
 
 export default function Intro() {
   const { ref } = useSectionInView("home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   const { t } = useTranslation();
+  const { profile } = useTranslatedData();
 
   return (
     <section
@@ -67,7 +67,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">{t('intro.hello')} {profile.name}.</span>
+        <span className="font-bold">
+          {t("intro.hello")} {profile.name}.
+        </span>
         <motion.span
           className="text-4xl"
           initial={{ opacity: 0, scale: 0 }}
@@ -95,9 +97,11 @@ export default function Intro() {
         >
           👉
         </motion.span>{" "}
-        {t('intro.iam')} <span className="font-bold">{profile.title}</span> {t('intro.with')}{" "}
-        <span className="font-bold">{profile.experience}</span> {t('intro.ofExperience')}.{" "}
-        {t('intro.enjoy')} <span className="italic">{profile.likes}</span>.
+        {t("intro.iam")} <span className="font-bold">{profile.title}</span>{" "}
+        {t("intro.with")}{" "}
+        <span className="font-bold">{profile.experience}</span>{" "}
+        {t("intro.ofExperience")}. {t("intro.enjoy")}{" "}
+        <span className="italic">{profile.likes}</span>.
       </motion.h1>
 
       <motion.div
@@ -116,7 +120,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          {t('intro.contactMe')}{" "}
+          {t("intro.contactMe")}{" "}
           <BsArrowDown className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -127,7 +131,7 @@ export default function Intro() {
           rel="noopener noreferrer"
           download
         >
-          {t('intro.downloadResume')}{" "}
+          {t("intro.downloadResume")}{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
@@ -146,7 +150,7 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
-        
+
         <LanguageSwitcher />
       </motion.div>
     </section>

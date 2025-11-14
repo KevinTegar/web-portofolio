@@ -12,10 +12,10 @@ import { LanguageProvider } from "@/context/language-context"; // Import Languag
 
 const inter = Inter({ subsets: ["latin"] });
 
-// Static Metadata
+// Static Metadata (menggunakan bahasa default English)
 export const metadata = {
-  title: `${profile.name} | Personal Portfolio | ${profile.title}`,
-  description: `${profile.name} is a ${profile.title} with ${profile.experience} of experience.`,
+  title: `${profile.en.name} | Personal Portfolio | ${profile.en.title}`,
+  description: `${profile.en.name} is a ${profile.en.title} with ${profile.en.experience} of experience.`,
 };
 
 export default function RootLayout({

@@ -27,15 +27,28 @@ import React from "react";
 const experienceInYears = new Date().getFullYear() - 2022;
 
 export const profile = {
-  avatar: profileImg,
-  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL,
-  name: "Kevin Tegar",
-  title: "Software Engineer",
-  experience: `${experienceInYears} years`,
-  likes: "building web apps and machine learning models",
-  resumeLink: `https://www.linkedin.com/in/kevin-tegar-aa45b9206`,
-  linkedInLink: "https://www.linkedin.com/in/kevin-tegar-aa45b9206",
-  githubLink: "https://github.com/KevinTegar",
+  en: {
+    avatar: profileImg,
+    email: process.env.NEXT_PUBLIC_CONTACT_EMAIL,
+    name: "Kevin Tegar",
+    title: "Software Engineer",
+    experience: `${experienceInYears} years`,
+    likes: "building web apps and machine learning models",
+    resumeLink: `https://www.linkedin.com/in/kevin-tegar-aa45b9206`,
+    linkedInLink: "https://www.linkedin.com/in/kevin-tegar-aa45b9206",
+    githubLink: "https://github.com/KevinTegar",
+  },
+  id: {
+    avatar: profileImg,
+    email: process.env.NEXT_PUBLIC_CONTACT_EMAIL,
+    name: "Kevin Tegar",
+    title: "Software Engineer",
+    experience: `${experienceInYears} tahun`,
+    likes: "membangun aplikasi web dan model machine learning",
+    resumeLink: `https://www.linkedin.com/in/kevin-tegar-aa45b9206`,
+    linkedInLink: "https://www.linkedin.com/in/kevin-tegar-aa45b9206",
+    githubLink: "https://github.com/KevinTegar",
+  },
 } as const;
 
 export const links = [

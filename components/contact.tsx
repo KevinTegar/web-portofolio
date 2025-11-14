@@ -9,13 +9,14 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 import { ContactFormInputs } from "@/lib/types";
-import { profile } from "@/lib/data";
 import { MdInfo } from "react-icons/md";
 import { useTranslation } from "@/lib/hooks/useTranslation";
+import { useTranslatedData } from "@/lib/hooks/useTranslatedData";
 
 export default function Contact() {
   const { ref } = useSectionInView("contact");
   const { t } = useTranslation();
+  const { profile } = useTranslatedData();
   const {
     register,
     handleSubmit,
