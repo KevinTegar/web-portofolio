@@ -20,6 +20,7 @@ import {
   TbBrandPython,
   TbBrandPhp,
   TbBrandLaravel,
+  TbBrandFlutter,
 } from "react-icons/tb";
 
 import React from "react";
@@ -182,4 +183,5 @@ export const skillsData = [
   { name: "MySQL", icon: RiDatabase2Line },
   { name: "PHP", icon: TbBrandPhp },
   { name: "Python", icon: TbBrandPython },
+  { name: "Flutter", icon: TbBrandFlutter },
 ] as const;
