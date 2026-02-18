@@ -37,8 +37,8 @@ export const profile = {
     title: "Software Engineer",
     experience: `${experienceInYears} years`,
     likes: "building web apps and machine learning models",
-    resumeLink: `https://www.linkedin.com/in/kevin-tegar-aa45b9206`,
-    linkedInLink: "https://www.linkedin.com/in/kevin-tegar-aa45b9206",
+    resumeLink: `KevinTegarW_CV_Final.pdf`,
+    linkedInLink: "https://www.linkedin.com/in/kevin-tegar-wijanarko/",
     githubLink: "https://github.com/KevinTegar",
   },
   id: {
@@ -48,8 +48,8 @@ export const profile = {
     title: "Software Engineer",
     experience: `${experienceInYears} tahun`,
     likes: "membangun aplikasi web dan model machine learning",
-    resumeLink: `https://www.linkedin.com/in/kevin-tegar-aa45b9206`,
-    linkedInLink: "https://www.linkedin.com/in/kevin-tegar-aa45b9206",
+    resumeLink: `KevinTegarW_CV_Final.pdf`,
+    linkedInLink: "https://www.linkedin.com/in/kevin-tegar-wijanarko/",
     githubLink: "https://github.com/KevinTegar",
   },
 } as const;
