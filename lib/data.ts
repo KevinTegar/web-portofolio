@@ -4,6 +4,8 @@ import portofolioImg from "@/public/webporto.png";
 import profileImg from "@/public/profileImg.jpg";
 import k3lImg from "@/public/k3lwebsite.jpg";
 import hcsMobileImg from "@/public/hcsmobile.jpg";
+import restoranImg from "@/public/image_POS.png";
+import selfPhotoImg from "@/public/photoStudio.png";
 
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -25,7 +27,7 @@ import {
 
 import React from "react";
 
-const experienceInYears = new Date().getFullYear() - 2022;
+const experienceInYears = new Date().getFullYear() - 2025;
 
 export const profile = {
   en: {
@@ -88,8 +90,16 @@ export const experiencesData = {
       description:
         "Actively involved in ESCAPE, a student organization in my university. Through this experience, I have developed teamwork, leadership, and problem-solving skills while contributing to various events and collaborative projects.",
       icon: React.createElement(CgWorkAlt),
-      date: "2022 - Present",
-    }
+      date: "2022",
+    },
+    {
+      title: "Internship as Web & Mobile Developer",
+      location: "PT. Sinergi Inovasi Tekno (SIT)",
+      description:
+        "Internship as Web & Mobile Developer at PT. Sinergi Inovasi Tekno. Through this experience, I have developed web development, mobile development, and desktop development skills.",
+      icon: React.createElement(CgWorkAlt),
+      date: "2025",
+    },
   ],
   id: [
     {
@@ -98,8 +108,16 @@ export const experiencesData = {
       description:
         "Aktif terlibat dalam ESCAPE, organisasi mahasiswa di universitas saya. Melalui pengalaman ini, saya telah mengembangkan keterampilan kerja tim, kepemimpinan, dan pemecahan masalah sambil berkontribusi dalam berbagai acara dan proyek kolaboratif.",
       icon: React.createElement(CgWorkAlt),
-      date: "2022 - Sekarang",
-    }
+      date: "2022",
+    },
+    {
+      title: "Magang sebagai Web & Mobile Developer",
+      location: "PT. Sinergi Inovasi Tekno",
+      description:
+        "magang sebagai Web & Mobile Developer di PT. Sinergi Inovasi Tekno. Melalui pengalaman ini, saya telah mengembangkan keterampilan pengembangan web, pengembangan aplikasi mobile, dan pengembangan aplikasi desktop.",
+      icon: React.createElement(CgWorkAlt),
+      date: "2025",
+    },
   ],
 } as const;
 
@@ -135,7 +153,21 @@ export const projectsData = {
       tags: ["Flutter", "Dart"],
       imageUrl: hcsMobileImg,
       url: "",
-    }
+    },
+    {
+      title: "Restaurant Management System",
+      description: "An integrated restaurant management platform that combines Point of Sale, real-time inventory tracking, and digital recipe management. It features multi-role , as well as automated web-based sales reporting.",
+      tags: ["Laravel", "PHP", "React", "TypeScript", "Tailwind", "MySQL"],
+      imageUrl: restoranImg,
+      url: "",
+    },
+    {
+      title: "Self Photo Studio System",
+      description: "A web-based photo studio management platform that digitizes the entire business process, from real-time online reservations, automated payments, to integrated time slot management and studio financial reports.",
+      tags: ["Laravel", "PHP", "React", "TypeScript", "Tailwind", "MySQL", "Midtrans"],
+      imageUrl: selfPhotoImg,
+      url: "",
+    },
     
   ],
   id: [
@@ -163,12 +195,26 @@ export const projectsData = {
       url: "",
     },
     {
-      title: "Work Order Management App",
+      title: "Aplikasi Manajemen Pesanan Kerja",
       description: "Aplikasi mobile Flutter untuk manajemen instalasi charger EV dengan fitur survey lokasi, tracking status pemasangan (HC, Grounding, Integrasi), upload foto evidence multi-point, dan sistem pemilihan material/jasa.",
-      tags: ["Flutter", "Dart"],
+      tags: ["Flutter", "Dart", "MySQL"],
       imageUrl: hcsMobileImg,
       url: "",
-    }
+    },
+    {
+      title: "Sistem Manajemen Restoran",
+      description: "Platform manajemen restoran terintegrasi yang menggabungkan Point of Sales, pelacakan inventaris real-time, dan manajemen resep digital. Dilengkapi fitur multi-role, serta pelaporan penjualan otomatis berbasis web.",
+      tags: ["Laravel", "PHP", "React", "TypeScript", "Tailwind", "MySQL"],
+      imageUrl: restoranImg,
+      url: "",
+    },
+    {
+      title: "Sistem Studio Foto Mandiri",
+      description: "Platform manajemen studio foto berbasis web yang mendigitalkan seluruh proses bisnis, mulai dari reservasi online real-time, pembayaran otomatis, hingga pengelolaan slot waktu dan laporan keuangan studio secara terintegrasi.",
+      tags: ["Laravel", "PHP", "React", "TypeScript", "Tailwind", "MySQL", "Midtrans"],
+      imageUrl: selfPhotoImg,
+      url: "",
+    },
   ],
 } as const;
 
