@@ -164,7 +164,7 @@ export const projectsData = {
     {
       title: "Self Photo Studio System",
       description: "A web-based photo studio management platform that digitizes the entire business process, from real-time online reservations, automated payments, to integrated time slot management and studio financial reports.",
-      tags: ["Laravel", "PHP", "React", "TypeScript", "Tailwind", "MySQL", "Midtrans"],
+      tags: ["Laravel", "PHP", "MySQL", "Midtrans"],
       imageUrl: selfPhotoImg,
       url: "",
     },
@@ -211,7 +211,7 @@ export const projectsData = {
     {
       title: "Sistem Studio Foto Mandiri",
       description: "Platform manajemen studio foto berbasis web yang mendigitalkan seluruh proses bisnis, mulai dari reservasi online real-time, pembayaran otomatis, hingga pengelolaan slot waktu dan laporan keuangan studio secara terintegrasi.",
-      tags: ["Laravel", "PHP", "React", "TypeScript", "Tailwind", "MySQL", "Midtrans"],
+      tags: ["Laravel", "PHP", "MySQL", "Midtrans"],
       imageUrl: selfPhotoImg,
       url: "",
     },
